@@ -1,0 +1,7 @@
+D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\ConsolerFirst.exe.config
+D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\ConsolerFirst.exe
+D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\ConsolerFirst.pdb
+D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.AssemblyReference.cache
+D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.CoreCompileInputs.cache
+D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.exe
+D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.pdb
