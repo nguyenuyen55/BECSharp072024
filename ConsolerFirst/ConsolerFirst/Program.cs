@@ -13,20 +13,20 @@ namespace ConsolerFirst
             //bai 1
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("Tính toán các phép tính");
-            Console.Write("Nhập a: ");
-                        int number1 = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Nhập b: ");
-                        int number2 = Convert.ToInt32(Console.ReadLine());
-                        Bai1 bai1 = new Bai1();
-                        Console.WriteLine("a + b = "+bai1.sum(number1, number2));
-                        Console.WriteLine("a * b = " + bai1.multiplication(number1, number2));
-                        Console.WriteLine("a / b = " + bai1.division(number1, number2));
+
+            Bai1 bai1 = new Bai1();
+            int numberFirst =bai1.enterNumber();
+            int nuberSecond =bai1.enterNumber();
+
+            Console.WriteLine("a + b = " + bai1.sum(numberFirst, nuberSecond));
+            Console.WriteLine("a * b = " + bai1.multiplication(numberFirst, nuberSecond));
+            Console.WriteLine("a / b = " + bai1.division(numberFirst, nuberSecond));
             Bai2 bai2 = new Bai2();
             bai2.phuongTrinh();
-            Bai3 bai3 = new Bai3();
-            bai3.ChuyenDoiCVaF();
+            //Bai3 bai3 = new Bai3();
+            //bai3.ChuyenDoiCVaF();
 
-            Console.ReadLine();
+            Console.ReadKey();
 
 
         }

@@ -21,5 +21,17 @@ namespace ConsolerFirst
         {
             return number1 * number2;
         }
+        public int enterNumber()
+        {
+            Console.WriteLine("Vui lòng nhập 1 số :");
+            string inputString = Console.ReadLine();
+            int parsedNumber;
+            while (!int.TryParse(inputString,out parsedNumber))
+            {
+                Console.WriteLine("Bạn vừa nhập không phải là số, vui lòng nhập lại.");
+                inputString = Console.ReadLine();
+            }
+            return parsedNumber;
+        }
     }
 }

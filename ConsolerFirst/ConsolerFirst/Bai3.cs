@@ -10,19 +10,20 @@ namespace ConsolerFirst
     {
         public void ChuyenDoiCVaF()
         {
+            Bai1  bai1 = new Bai1();
             Console.WriteLine("1. Đổi C sang F.");
             Console.WriteLine("2. Đổi F sang C.");
             Console.WriteLine("Vui lòng lựa chọn : ");
-            int yourChoice=Convert.ToInt32(Console.ReadLine());
+            int yourChoice=bai1.enterNumber();
             if(yourChoice == 1 ) {
                 Console.WriteLine("Nhập độ C : ");
-                int c=Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(" Đổi C sang F: "+c+"C= "+c*33.8+"F");
+                int inputNumberC=bai1.enterNumber();
+                Console.WriteLine(" Đổi C sang F: "+inputNumberC+"C= "+inputNumberC*33.8+"F");
             }else if(yourChoice == 2 )
             {
                 Console.WriteLine("Nhập độ F : ");
-                int f = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(" Đổi F sang C: " + f + "F= " + f *(-17.22222) + "C");
+                int inputNumberF = bai1.enterNumber();
+                Console.WriteLine(" Đổi F sang C: " + inputNumberF + "F= " + inputNumberF *(-17.22222) + "C");
             }
         }
     }
