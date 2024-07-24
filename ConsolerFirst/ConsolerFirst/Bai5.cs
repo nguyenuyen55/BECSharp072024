@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,31 +20,26 @@ namespace ConsolerFirst
                     listString += i + ",";
                 }
             }
-            return listString;
+            return listString.Remove(listString.Length - 1);
         }
         public bool checkSoNguyento(int inputNumbercheck)
         {
             bool IsNguyenTo = false;
-            if (inputNumbercheck < 3)
+            if (inputNumbercheck < 2)
             {
                 return IsNguyenTo;
-
             }
             int soLanNumberChiaHet = 0;
-            for (int i = 1; i < inputNumbercheck; i++)
+            for (int i = 1; i <= inputNumbercheck; i++)
             {
-
-                for (int j = 1; j <= i; j++)
+                if(inputNumbercheck%i == 0)
                 {
-                    if (i % 1 == 0 && i % j == 0)
-                    {
-                        soLanNumberChiaHet++;
-                    }
+                    soLanNumberChiaHet++;
                 }
-                if (soLanNumberChiaHet == 1)
-                {
-                    IsNguyenTo = true;
-                }
+                
+            }
+            if(soLanNumberChiaHet == 2) { 
+            IsNguyenTo=true;
             }
             return IsNguyenTo;
         }
