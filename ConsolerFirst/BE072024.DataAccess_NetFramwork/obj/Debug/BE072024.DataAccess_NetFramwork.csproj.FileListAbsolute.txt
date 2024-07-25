@@ -1,0 +1,9 @@
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\bin\Debug\BE072024.DataAccess_NetFramwork.dll
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\bin\Debug\BE072024.DataAccess_NetFramwork.pdb
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\bin\Debug\BE2507.Common.dll
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\bin\Debug\BE2507.Common.pdb
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.csproj.AssemblyReference.cache
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.csproj.CoreCompileInputs.cache
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.csproj.CopyComplete
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.dll
+D:\DotNet\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.pdb

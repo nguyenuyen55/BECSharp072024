@@ -58,16 +58,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bai1.cs" />
-    <Compile Include="Bai10.cs" />
-    <Compile Include="Bai2.cs" />
-    <Compile Include="Bai3.cs" />
-    <Compile Include="Bai4.cs" />
-    <Compile Include="Bai5.cs" />
-    <Compile Include="Bai6.cs" />
-    <Compile Include="Bai7.cs" />
-    <Compile Include="Bai8.cs" />
-    <Compile Include="Bai9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -94,6 +84,16 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE072024.DataAccess_NetFramwork\BE072024.DataAccess_NetFramwork.csproj">
+      <Project>{2af23a91-0159-42d4-bef7-db6bc3479a76}</Project>
+      <Name>BE072024.DataAccess_NetFramwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BE2507.Common\BE072024.Common_NetFramework.csproj">
+      <Project>{1f945da2-ba0e-4d25-ad31-f2ec9c65e287}</Project>
+      <Name>BE072024.Common_NetFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

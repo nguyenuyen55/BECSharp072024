@@ -5,3 +5,8 @@ D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.AssemblyRef
 D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.CoreCompileInputs.cache
 D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.exe
 D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.pdb
+D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\BE072024.DataAccess_NetFramwork.dll
+D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\BE2507.Common.dll
+D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\BE072024.DataAccess_NetFramwork.pdb
+D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\BE2507.Common.pdb
+D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.CopyComplete
