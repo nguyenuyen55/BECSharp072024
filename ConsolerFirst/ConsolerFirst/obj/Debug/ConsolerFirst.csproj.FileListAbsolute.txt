@@ -10,3 +10,15 @@ D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\BE2507.Common.dll
 D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\BE072024.DataAccess_NetFramwork.pdb
 D:\DotNet\ConsolerFirst\ConsolerFirst\bin\Debug\BE2507.Common.pdb
 D:\DotNet\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.CopyComplete
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\ConsolerFirst.exe.config
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\ConsolerFirst.exe
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\ConsolerFirst.pdb
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\BE072024.DataAccess_NetFramwork.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\BE2507.Common.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\BE072024.DataAccess_NetFramwork.pdb
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\BE2507.Common.pdb
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.AssemblyReference.cache
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.CoreCompileInputs.cache
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.CopyComplete
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.exe
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.pdb

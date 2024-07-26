@@ -4,3 +4,9 @@ D:\DotNet\ConsolerFirst\BE2507.Common\obj\Debug\BE072024.Common_NetFramework.csp
 D:\DotNet\ConsolerFirst\BE2507.Common\obj\Debug\BE072024.Common_NetFramework.csproj.CoreCompileInputs.cache
 D:\DotNet\ConsolerFirst\BE2507.Common\obj\Debug\BE2507.Common.dll
 D:\DotNet\ConsolerFirst\BE2507.Common\obj\Debug\BE2507.Common.pdb
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE2507.Common\bin\Debug\BE2507.Common.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE2507.Common\bin\Debug\BE2507.Common.pdb
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE2507.Common\obj\Debug\BE072024.Common_NetFramework.csproj.AssemblyReference.cache
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE2507.Common\obj\Debug\BE072024.Common_NetFramework.csproj.CoreCompileInputs.cache
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE2507.Common\obj\Debug\BE2507.Common.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE2507.Common\obj\Debug\BE2507.Common.pdb

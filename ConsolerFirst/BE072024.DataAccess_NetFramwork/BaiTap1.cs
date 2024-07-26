@@ -87,6 +87,23 @@ namespace BE072024.DataAccess_NetFramwork
                 Console.WriteLine(" Đổi F sang C: " + inputNumberF + "F= " + inputNumberF * (-17.22222) + "C");
             }
         }
+
+
+        public static void ChuongTrinhBaiTap1()
+        {
+            Console.WriteLine("Bài 1:  tìm tổng hai số , tích 2 số , hiệu 2 số ");
+            int numberFirst = ValidateData.enterNumber();
+            int nuberSecond = ValidateData.enterNumber();
+            Console.WriteLine("a + b = " + sum(numberFirst, nuberSecond));
+            Console.WriteLine("a * b = " + multiplication(numberFirst, nuberSecond));
+            Console.WriteLine("a / b = " + division(numberFirst, nuberSecond));
+            //bai 2
+            Console.WriteLine("Bài 2");
+            phuongTrinh();
+            //bai 3
+            Console.WriteLine("Bài 3");
+            ChuyenDoiCVaF();
+        }
  
     }
 }
