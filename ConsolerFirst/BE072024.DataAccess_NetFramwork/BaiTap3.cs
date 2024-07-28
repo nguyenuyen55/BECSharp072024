@@ -48,13 +48,13 @@ public static PhanSo chiaPhanSo(PhanSo PhanSoFirst, PhanSo PhanSoSecond)
         public static PhanSo enterPhanSo()
         {
             Console.WriteLine("Nhập tử của phân số");
-            int tu1 = ValidateData.enterNumber();
+            int tu1 = ValidateData.CheckValueNumber();
             Console.WriteLine("Nhập mẫu của phân số");
-            int mau1 = ValidateData.enterNumber();
+            int mau1 = ValidateData.CheckValueNumber();
             while (mau1 == 0)
             {
                 Console.WriteLine("Nhập mẫu của phân số không được bằng 0");
-                 mau1 = ValidateData.enterNumber();
+                 mau1 = ValidateData.CheckValueNumber();
             }
             PhanSo PhanSo = new PhanSo(tu1,mau1);
             return PhanSo;

@@ -241,18 +241,18 @@ namespace BE072024.DataAccess_NetFramwork
             //bai 4
             Console.WriteLine("Bài 4: Tính giai thừa của 1 số ");
 
-            int numberGiaiThua = ValidateData.enterNumber();
+            int numberGiaiThua = ValidateData.CheckValueNumber();
             Console.WriteLine("Tính giai thừa của " + numberGiaiThua + "là " + BaiTap2.TinhGiaiThuaCuaMotSo(numberGiaiThua));
             //bai 5
             Console.WriteLine("Bài 5: liệt kê tất cả các số nguyên tố nhỏ hơn n");
 
-            int SoTuNhienN = ValidateData.enterNumber();
+            int SoTuNhienN = ValidateData.CheckValueNumber();
             Console.WriteLine(BaiTap2.ListNumberNguyenToBigNumberN(SoTuNhienN));
             Console.WriteLine("Bài 6: Kiểm tra một số là số chẵn hay số lẻ ");
             BaiTap2.KiemTraSoChanHaySoLe(SoTuNhienN);
             //bai 7
             Console.WriteLine("Bài 7: Kiểm tra 1 số có phải số nguyen tố không");
-            int inputNumberCheckSoNguyenTo = ValidateData.enterNumber();
+            int inputNumberCheckSoNguyenTo = ValidateData.CheckValueNumber();
             Console.WriteLine(BaiTap2.checkNumberNguyenTo(inputNumberCheckSoNguyenTo));
             //Bai 8
             Console.WriteLine("Bài 8 : Cho một mảng số nguyên hãy in ra mảng sổ lẻ và mảng số chẵn");
@@ -262,7 +262,7 @@ namespace BE072024.DataAccess_NetFramwork
             Console.WriteLine("Bài 9 : Cho một mảng số nguyên hãy thực hiện sắp xếp dãy tang và giảm dần");
             BaiTap2.sortArrayIncreaseAndDecrease(myArrayNumbers);
             Console.WriteLine("Bài 10: Nhập một số bất kỳ và hiển thị số bằng chữ tương ứng trong C#");
-            int numberChuyenString = ValidateData.enterNumber();
+            int numberChuyenString = ValidateData.CheckValueNumber();
             Console.WriteLine(BaiTap2.ChuyenSoSangChuoi(numberChuyenString));
         }
     }

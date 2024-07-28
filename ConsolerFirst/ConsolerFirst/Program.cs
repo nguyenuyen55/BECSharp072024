@@ -17,7 +17,10 @@ namespace ConsolerFirst
             //bai 1
             //BaiTap1.ChuongTrinhBaiTap1();
             //BaiTap2.ChuongTrinhBaiTap2();
-            BaiTap3.ChuongTrinhBaiTap3();
+            //BaiTap3.ChuongTrinhBaiTap3();
+BaiTap4 baiTap4 = new BaiTap4();
+            baiTap4.nhapDSNhanVien();
+
             Console.ReadKey();
         }
     }

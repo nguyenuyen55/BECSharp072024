@@ -28,14 +28,14 @@ namespace BE072024.DataAccess_NetFramwork
             Console.WriteLine("2. Phương trình bậc 2 ax^2+bx+c=0.");
             Console.Write("Nhập lựa chọn của bạn : ");
            
-            int yourChoice = ValidateData.enterNumber();
+            int yourChoice = ValidateData.CheckValueNumber();
             if (yourChoice == 1)
             {
                 Console.WriteLine("ax+b=0");
                 Console.WriteLine("Nhập a:");
-                int inputNumberA = ValidateData.enterNumber();
+                int inputNumberA = ValidateData.CheckValueNumber();
                 Console.WriteLine("Nhập b:");
-                int inputNumberB = ValidateData.enterNumber();
+                int inputNumberB = ValidateData.CheckValueNumber();
                 double result = (-inputNumberA) / inputNumberB;
                 Console.WriteLine("Nghiệm của phương trình " + inputNumberA + "x+" + inputNumberB + "=0 là" + result);
             }
@@ -44,11 +44,11 @@ namespace BE072024.DataAccess_NetFramwork
 
                 Console.WriteLine("ax^2+bx+c=0");
                 Console.WriteLine("Nhập a:");
-                int inputNumberA = ValidateData.enterNumber();
+                int inputNumberA = ValidateData.CheckValueNumber();
                 Console.WriteLine("Nhập b:");
-                int inputNumberB = ValidateData.enterNumber();
+                int inputNumberB = ValidateData.CheckValueNumber();
                 Console.WriteLine("Nhập c:");
-                int inputNumberC = ValidateData.enterNumber();
+                int inputNumberC = ValidateData.CheckValueNumber();
                 double meTan = Math.Pow(inputNumberB, 2) - 4 * inputNumberA * inputNumberC;
                 if (meTan > 0)
                 {
@@ -73,17 +73,17 @@ namespace BE072024.DataAccess_NetFramwork
             Console.WriteLine("1. Đổi C sang F.");
             Console.WriteLine("2. Đổi F sang C.");
             Console.WriteLine("Vui lòng lựa chọn : ");
-            int yourChoice = ValidateData.enterNumber();
+            int yourChoice = ValidateData.CheckValueNumber();
             if (yourChoice == 1)
             {
                 Console.WriteLine("Nhập độ C : ");
-                int inputNumberC = ValidateData.enterNumber();
+                int inputNumberC = ValidateData.CheckValueNumber();
                 Console.WriteLine(" Đổi C sang F: " + inputNumberC + "C= " + inputNumberC * 33.8 + "F");
             }
             else if (yourChoice == 2)
             {
                 Console.WriteLine("Nhập độ F : ");
-                int inputNumberF = ValidateData.enterNumber();
+                int inputNumberF = ValidateData.CheckValueNumber();
                 Console.WriteLine(" Đổi F sang C: " + inputNumberF + "F= " + inputNumberF * (-17.22222) + "C");
             }
         }
@@ -92,8 +92,8 @@ namespace BE072024.DataAccess_NetFramwork
         public static void ChuongTrinhBaiTap1()
         {
             Console.WriteLine("Bài 1:  tìm tổng hai số , tích 2 số , hiệu 2 số ");
-            int numberFirst = ValidateData.enterNumber();
-            int nuberSecond = ValidateData.enterNumber();
+            int numberFirst = ValidateData.CheckValueNumber();
+            int nuberSecond = ValidateData.CheckValueNumber();
             Console.WriteLine("a + b = " + sum(numberFirst, nuberSecond));
             Console.WriteLine("a * b = " + multiplication(numberFirst, nuberSecond));
             Console.WriteLine("a / b = " + division(numberFirst, nuberSecond));

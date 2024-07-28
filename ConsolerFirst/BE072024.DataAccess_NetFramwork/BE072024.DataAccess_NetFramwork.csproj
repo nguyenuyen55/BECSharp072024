@@ -44,6 +44,7 @@
     <Compile Include="BaiTap1.cs" />
     <Compile Include="BaiTap2.cs" />
     <Compile Include="BaiTap3.cs" />
+    <Compile Include="BaiTap4.cs" />
     <Compile Include="DO\Struct.cs" />
     <Compile Include="DO\StructStudent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
