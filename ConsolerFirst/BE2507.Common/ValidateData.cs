@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Server;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,19 +23,14 @@ namespace BE2507.Common
             return parsedNumber;
         }
         public static bool CheckValueDate(string date) {
-            string day=date.Substring(0, 2);
-            string month=date.Substring(3, 2);
-            string year=date.Substring(6, 4);
-            if (date.Count(x => x == '/') != 2)
-            {
-                return false;
-            }
-            if (day.Contains('/')|| month.Contains('/')|| year.Contains('/'))
-            {
-                return false;
-            }
-            
-            return true;
+            bool checkValDate = DateTime.TryParseExact(
+               date,
+               "dd/MM/yyyy",
+               CultureInfo.InvariantCulture,
+               DateTimeStyles.None,
+               out DateTime result
+           );
+            return checkValDate;
         }
     }
 }

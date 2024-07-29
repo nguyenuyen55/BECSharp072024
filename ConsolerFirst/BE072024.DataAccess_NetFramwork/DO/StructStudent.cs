@@ -20,13 +20,17 @@ namespace BE072024.DataAccess_NetFramwork.DO
         public string codeEmployee;
         public string name;
         public string dateEnterCompany;
-        public chucVu tenChucVu;
+      public chucVu tenChucVu;
         public float heSo
         {
             get { return getHeSo(this.tenChucVu); }
             
         }
+        //public chucVu tenChucVu
+        //{
+        //    set; get { return getChucvu(this.tenChucVu); }
 
+        //}
         public NhanVien(string _codeEmployee, string _name, string _dateEnterCompany, chucVu _tenChucVu)
         {
             this.codeEmployee = _codeEmployee;
@@ -48,6 +52,20 @@ namespace BE072024.DataAccess_NetFramwork.DO
                     return 2.0f;
                 default:
                     return 1.0f;
+            }
+        }
+        public string getChucvu(chucVu tenchucvu)
+        {
+            switch (tenchucvu)
+            {
+                case chucVu.NhanVien:
+                    return "Nhân Viên";
+                case chucVu.QuanLy:
+                    return "Quản lý";
+                case chucVu.GiamDoc:
+                    return "Giám Đốc";
+                default:
+                    return "Nhân Viên";
             }
         }
     }

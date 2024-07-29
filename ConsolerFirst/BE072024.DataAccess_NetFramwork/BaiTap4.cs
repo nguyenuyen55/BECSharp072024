@@ -32,6 +32,7 @@ namespace BE072024.DataAccess_NetFramwork
         {
             Console.WriteLine("Bạn nhập khoảng bao nhiêu nhân viên : ");
             int countEmployee =ValidateData.CheckValueNumber();
+            nhanViens = new NhanVien[countEmployee];
             for (int i = 0; i < countEmployee; i++) { 
                 Console.WriteLine("nhập mã nhân viên ");
                 string codeEmployee = Console.ReadLine();
@@ -51,9 +52,13 @@ namespace BE072024.DataAccess_NetFramwork
                 NhanVien nhanVien = new NhanVien(codeEmployee,FullNameEmployee,dateEnterCompany, chucVu.GiamDoc);
                 nhanViens[i]= nhanVien;
             }
-            for (int i = 0; i < countEmployee; i++)
+            for (int i = 0; i < nhanViens.Length; i++)
             {
-                Console.Write("{0} - {1} - {2} - {3} - {4} - {5}", nhanViens[i].codeEmployee, nhanViens[i].name, nhanViens[i].dateEnterCompany, nhanViens[i].tenChucVu, nhanViens[i].heSo);
+                Console.WriteLine(nhanViens[i].codeEmployee);
+                Console.WriteLine(nhanViens[i].name);
+                Console.WriteLine(nhanViens[i].tenChucVu);
+                Console.WriteLine(nhanViens[i].heSo);
+                Console.WriteLine(nhanViens[i].dateEnterCompany);
             }
         }
         string enterPosition()
