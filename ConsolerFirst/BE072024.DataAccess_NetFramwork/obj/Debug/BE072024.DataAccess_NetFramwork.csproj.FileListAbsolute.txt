@@ -16,3 +16,4 @@ C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE07
 C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.csproj.CopyComplete
 C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.dll
 C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.pdb
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE072024.DataAccess_NetFramwork\obj\Debug\BE072024.DataAccess_NetFramwork.csproj.ResolveComReference.cache

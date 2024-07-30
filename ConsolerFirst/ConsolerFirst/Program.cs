@@ -19,7 +19,8 @@ namespace ConsolerFirst
             //BaiTap2.ChuongTrinhBaiTap2();
             //BaiTap3.ChuongTrinhBaiTap3();
 BaiTap4 baiTap4 = new BaiTap4();
-            baiTap4.nhapDSNhanVien();
+          //  baiTap4.nhapDSNhanVien();
+            baiTap4.readFromExcel();
 
             Console.ReadKey();
         }

@@ -5,12 +5,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace BE072024.DataAccess_NetFramwork
 {
     public class BaiTap4
     {
         NhanVien[] nhanViens;
+        NhanVien[] nhanVienNews;
         List<NhanVien> listNhanViens;
         public void menu()
         {
@@ -56,7 +59,7 @@ namespace BE072024.DataAccess_NetFramwork
             {
                 Console.WriteLine(nhanViens[i].codeEmployee);
                 Console.WriteLine(nhanViens[i].name);
-                Console.WriteLine(nhanViens[i].tenChucVu);
+                Console.WriteLine(nhanViens[i].getChucvu(nhanViens[i].tenChucVu));
                 Console.WriteLine(nhanViens[i].heSo);
                 Console.WriteLine(nhanViens[i].dateEnterCompany);
             }
@@ -82,6 +85,37 @@ namespace BE072024.DataAccess_NetFramwork
                     return "Nhân viên";
             }
         }
-        
+       public void readFromExcel()
+        {
+            Excel.Application excelApp= new Excel.Application();
+            Excel.Workbook excelWB = excelApp.Workbooks.Open(@"C:\Users\uyen.nguyen\Desktop\InFormation.xlsx");
+            Excel._Worksheet excelWS = excelWB.Sheets[1];
+            Excel.Range excelRange = excelWS.UsedRange;
+
+            int rowCount = excelRange.Rows.Count;
+            int columnCount = excelRange.Columns.Count;
+
+            for (int i = 2; i <= rowCount; i++)
+            {
+               
+                   
+                        Console.WriteLine(excelRange.Cells[i, 1].value.ToString());
+                        Console.WriteLine(excelRange.Cells[i, 2].value.ToString());
+                        Console.WriteLine(excelRange.Cells[i, 3].value.ToString());
+                //    nhanVienItem.codeEmployee = excelRange.Cells[i, j].value.ToString();
+                Console.WriteLine(" -------------");
+            }
+
+                
+               
+            
+            Marshal.ReleaseComObject(excelWS);
+            Marshal.ReleaseComObject(excelRange);
+            excelWB.Close();
+            Marshal.ReleaseComObject(excelWB);
+            excelApp.Quit();
+            Marshal.ReleaseComObject(excelApp);
+
+        }   
     }
 }
