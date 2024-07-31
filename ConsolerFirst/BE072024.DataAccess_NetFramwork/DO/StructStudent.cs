@@ -68,6 +68,20 @@ namespace BE072024.DataAccess_NetFramwork.DO
                     return "Nhân Viên";
             }
         }
+        public static chucVu getStructChucvu(string tenchucvu)
+        {
+            switch (tenchucvu)
+            {
+                case "Nhân Viên":
+                    return chucVu.NhanVien;
+                case "Quản lý":
+                    return chucVu.QuanLy;
+                case "Giám Đốc":
+                    return chucVu.GiamDoc;
+                default:
+                    return chucVu.NhanVien;
+            }
+        }
     }
     enum HocLuc
     {
@@ -78,9 +92,9 @@ namespace BE072024.DataAccess_NetFramwork.DO
         Yeu
     }
     public enum chucVu
-    {  NhanVien ,
-        QuanLy ,
-        GiamDoc 
+    {  NhanVien =1,
+        QuanLy=2 ,
+        GiamDoc=3 
 
     }
 }
