@@ -119,7 +119,7 @@ namespace BE072024.DataAccess_NetFramework.Business
                 string methodContact = "";
                 switch (choicecontact)
                 {
-                    case: methodContact = "gọi điện"; break;
+                    case 1: methodContact = "gọi điện"; break;
                     
                 }
 
