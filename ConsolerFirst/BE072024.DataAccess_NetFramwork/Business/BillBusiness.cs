@@ -61,7 +61,7 @@ namespace BE072024.DataAccess_NetFramework.Business
                          billStructs.Add(billStruct);
                     }
                 }
-                if(itemError!=null)
+                if(itemError.Length!=0)
                 {
                     returnData.ReturnCode = (int)CodeError.THAT_BAI;
                     returnData.ReturnMsg = itemError.ToString();
