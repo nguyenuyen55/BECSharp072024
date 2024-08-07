@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolerFirst", "ConsolerFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE072024.Common_NetFramework", "BE2507.Common\BE072024.Common_NetFramework.csproj", "{1F945DA2-BA0E-4D25-AD31-F2EC9C65E287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE072024.DataAccess_NetFramwork", "BE072024.DataAccess_NetFramwork\BE072024.DataAccess_NetFramwork.csproj", "{2AF23A91-0159-42D4-BEF7-DB6BC3479A76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE072024.DataAccess_NetFramework", "BE072024.DataAccess_NetFramwork\BE072024.DataAccess_NetFramework.csproj", "{2AF23A91-0159-42D4-BEF7-DB6BC3479A76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
