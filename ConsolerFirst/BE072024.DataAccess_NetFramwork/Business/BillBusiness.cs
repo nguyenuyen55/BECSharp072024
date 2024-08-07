@@ -1,11 +1,13 @@
 ﻿using BE072024.DataAccess_NetFramework.DO;
 using BE072024.DataAccess_NetFramwork.DO;
+using BE2507.Common;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +16,7 @@ namespace BE072024.DataAccess_NetFramework.Business
     public class BillBusiness
     {
         List<BillStruct> billStructs = new List<BillStruct>();
+        List<HistoryBillContact> historyBillStructs = new List<HistoryBillContact>();
         public ReturnData NhapTuExcelFile(string filepath)
         {
             var returnData=new ReturnData();
@@ -94,7 +97,62 @@ namespace BE072024.DataAccess_NetFramework.Business
             }
             return list;
         }
+         public ReturnData nhapTuongTacHoaDon()
+           
+        { var returnData = new ReturnData();
+            try
+            {
+                Console.WriteLine("nhập phương thức liên hệ ");
+                string codeBill_Input = Console.ReadLine();
+                while (!checkCodeBillExsits(codeBill_Input))
+                {
+                    Console.WriteLine("không tồn tại mã này vui lòng nhập lại");
+                    codeBill_Input = Console.ReadLine();
+                }
+                Console.WriteLine("nhập tên nhân viên liên hệ ");
+                string nameEmployee = Console.ReadLine();
+                Console.WriteLine("nhập phương thức liên hệ ");
+                Console.WriteLine("1. gọi điện");
+                Console.WriteLine("2. gửi mail");
+                Console.WriteLine("3. gặp trực tiếp ");
+                int choicecontact = ValidateData.CheckValueNumber();
+                string methodContact = "";
+                switch (choicecontact)
+                {
+                    case: methodContact = "gọi điện"; break;
+                    
+                }
 
-        
+                var historybillContact = new HistoryBillContact();
+                historybillContact.codeBill = codeBill_Input;
+                historybillContact.nameEmployee = nameEmployee;
+                historybillContact.methodContact = methodContact;
+                historyBillStructs.Add(historybillContact);
+                returnData.ReturnCode = 1;
+                returnData.ReturnMsg = "THêm thành công";
+                return returnData;
+            }
+            catch
+            {
+                returnData.ReturnCode = -100;
+                returnData.ReturnMsg = "thêm thất bại";
+                return returnData;
+            }
+            
+        }
+
+        public bool checkCodeBillExsits(string billCode)
+        {
+            bool codeBillExsit=false;
+            foreach(var itemBill in billStructs)
+            {
+                if(itemBill.codeBill==billCode.Trim())
+                {
+                    codeBillExsit=true;
+                    break;
+                }
+            }
+            return codeBillExsit;
+        }
     }
 }

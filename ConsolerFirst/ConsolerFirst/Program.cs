@@ -26,12 +26,10 @@ namespace ConsolerFirst
 
             var billStruct = new BillBusiness();
             var filePath = @"C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\BE072024.DataAccess_NetFramwork\Template\BillList.xlsx";
-            Console.WriteLine(billStruct.NhapTuExcelFile(filePath).ReturnCode);
             Console.WriteLine(billStruct.NhapTuExcelFile(filePath).ReturnMsg);
 
-            foreach (var item in billStruct.ListBill()) {
-                Console.WriteLine(item.ToString());
-            }
+            Console.WriteLine(billStruct.nhapTuongTacHoaDon().ReturnMsg);
+
 
             Console.ReadKey();
         }
