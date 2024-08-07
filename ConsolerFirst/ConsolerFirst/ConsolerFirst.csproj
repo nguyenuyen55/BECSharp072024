@@ -86,9 +86,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BE072024.DataAccess_NetFramwork\BE072024.DataAccess_NetFramwork.csproj">
+    <ProjectReference Include="..\BE072024.DataAccess_NetFramwork\BE072024.DataAccess_NetFramework.csproj">
       <Project>{2af23a91-0159-42d4-bef7-db6bc3479a76}</Project>
-      <Name>BE072024.DataAccess_NetFramwork</Name>
+      <Name>BE072024.DataAccess_NetFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\BE2507.Common\BE072024.Common_NetFramework.csproj">
       <Project>{1f945da2-ba0e-4d25-ad31-f2ec9c65e287}</Project>

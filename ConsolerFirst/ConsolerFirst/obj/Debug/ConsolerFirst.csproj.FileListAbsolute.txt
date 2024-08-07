@@ -22,3 +22,17 @@ C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\Cons
 C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.csproj.CopyComplete
 C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.exe
 C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\obj\Debug\ConsolerFirst.pdb
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\EPPlus.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Memory.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Buffers.dll
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\EPPlus.xml
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Memory.xml
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\uyen.nguyen\source\repos\nguyenuyen55\BECSharp072024\ConsolerFirst\ConsolerFirst\bin\Debug\System.Buffers.xml

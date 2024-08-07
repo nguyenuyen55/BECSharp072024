@@ -32,5 +32,26 @@ namespace BE2507.Common
            );
             return checkValDate;
         }
+        public static bool CheckNull_Data(string input)
+        {
+            return string.IsNullOrEmpty( input )?false :true;
+        }
+
+        public static bool IsNumberic(string input)
+        { double n;
+            bool isNumberic = double.TryParse(input, out n);
+            return isNumberic;
+        }
+        public static bool IsDate(string input)
+        {
+            DateTime dateValue;
+            if (!DateTime.TryParseExact(input, "dd/MM/yyyy",new CultureInfo("es-US"),DateTimeStyles.None,out dateValue))
+            {
+                return false;
+
+            }
+            return true;
+        }
+
     }
 }
