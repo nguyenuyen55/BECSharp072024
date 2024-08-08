@@ -1,6 +1,7 @@
 ﻿using BE072024.DataAccess_NetFramework.DO;
 using BE072024.DataAccess_NetFramwork.DO;
 using BE2507.Common;
+using Microsoft.Office.Interop.Excel;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
@@ -153,6 +154,49 @@ namespace BE072024.DataAccess_NetFramework.Business
                 }
             }
             return codeBillExsit;
+        }
+
+        public ReturnData xuatFileExcel()
+        {
+            var returnData = new ReturnData();
+            try
+            {
+                ExcelPackage excelPackage = new ExcelPackage();
+                ExcelWorksheet sheet = excelPackage.Workbook.Worksheets.Add("Report Bill");
+                sheet.Cells["A1"].Value = "Mã hóa đơn";
+                sheet.Cells["B1"].Value = "Nhân viên";
+                sheet.Cells["C1"].Value = "phương thức liên hệ";
+
+                //thêm header cho file excel
+
+                int row = 2;
+                if (historyBillStructs.Count > 0)
+                {
+                    foreach (var itemBill in historyBillStructs)
+                    {
+                        sheet.Cells[string.Format("A{0}", row)].Value = itemBill.codeBill;
+                        sheet.Cells[string.Format("B{0}", row)].Value = itemBill.nameEmployee;
+                        sheet.Cells[string.Format("C{0}", row)].Value = itemBill.methodContact;
+                        row++;
+                    }
+                }
+                sheet.Cells["A:AZ"].AutoFitColumns();
+                string filePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\uyengf.xlsx";
+                excelPackage.SaveAs(filePath);
+                returnData.ReturnCode=1;
+                returnData.ReturnMsg= $"Excel file '{filePath}' has been created successfully.";
+                return returnData;
+            }
+            catch
+            {
+                returnData.ReturnCode = -100;
+                returnData.ReturnMsg = "xuất thất bại xin vui lòng kiểm tra lại";
+                return returnData;
+
+            }
+
+
+
         }
     }
 }

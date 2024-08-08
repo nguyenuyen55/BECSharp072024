@@ -29,6 +29,7 @@ namespace ConsolerFirst
             Console.WriteLine(billStruct.NhapTuExcelFile(filePath).ReturnMsg);
 
             Console.WriteLine(billStruct.nhapTuongTacHoaDon().ReturnMsg);
+            Console.WriteLine(billStruct.xuatFileExcel().ReturnMsg);
 
 
             Console.ReadKey();
