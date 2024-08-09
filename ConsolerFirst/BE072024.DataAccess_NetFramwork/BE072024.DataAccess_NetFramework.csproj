@@ -78,12 +78,15 @@
     <Compile Include="BaiTap2.cs" />
     <Compile Include="BaiTap3.cs" />
     <Compile Include="BaiTap4.cs" />
+    <Compile Include="Business\BaiTap6Business.cs" />
     <Compile Include="Business\BillBusiness.cs" />
     <Compile Include="DO\BillStruct.cs" />
     <Compile Include="DO\CodeError.cs" />
+    <Compile Include="DO\MyStack.cs" />
     <Compile Include="DO\ReturnData.cs" />
     <Compile Include="DO\Struct.cs" />
     <Compile Include="DO\StructStudent.cs" />
+    <Compile Include="DO\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
